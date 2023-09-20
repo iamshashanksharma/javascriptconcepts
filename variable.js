@@ -31,3 +31,12 @@ console.log(1push); */
 const date = "10.09.2000"; 
 // date = "20.10.2000"; // cannot be changed as it is const
 console.log(date);
+
+//Exercices 
+// 1))
+let admin;
+let userName;
+userName = "john";
+admin = userName;
+alert(admin);
+
