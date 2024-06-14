@@ -22,4 +22,20 @@ console.log("6"/"2") ; // string is converted to number by division and multipli
 console.log(Number(" 123 ")) // 123
 console.log(Number("123z")) // NaN
 console.log(Number(true))    // 1
-console.log(Number(" ")) // 0  
+console.log(Number(" ")) // 0
+
+//Boolean conversion
+
+/*
+value                      becomes
+0 , null , undefined,         false
+empty string , NaN
+
+any other value                true
+
+"0"                           true 
+
+" "                            true (because of space)
+
+*/
+
