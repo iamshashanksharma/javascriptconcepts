@@ -17,7 +17,7 @@ let BigInt = 12432142145261562156727616281261828718291928918281n;
 console.log(BigInt);
 
 //3   String : can be formed using 3 ways : double quotes , single quotes , backticks first two ways are same third is used to add expression and other value of string
-
+ 
 
 let schoolName = "Abc Bharti school";   //Abc Bharti school
 let collegeName = "def bharti college";  // def bharti college
