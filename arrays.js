@@ -40,3 +40,26 @@ vegetables.shift();
 console.log(vegetables); // [onion,ladyfinger]
 vegetables.unshift("brocolli");
 console.log(vegetables); // [brocolli , onion, ladyfinger]
+
+//Loops on arrays
+
+let arr = ["apple", "mango", "orange"];
+for(let i =0;i<arr.length;i++)
+{
+        console.log(arr[i]);
+}
+
+// for..of loop
+
+for(let fruits of arr)
+{
+        console.log(fruits);
+}
+
+//for.... in loop this loops is optimized for objects 
+
+for(let key in arr)
+{
+        console.log(arr[key]);
+}
+
