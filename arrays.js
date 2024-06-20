@@ -63,3 +63,23 @@ for(let key in arr)
         console.log(arr[key]);
 }
 
+// Multidimensional array
+
+let matrix = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+]
+console.log(matrix[1][1]);   
+
+// is array copied ?
+
+let favfruits = ["apples", "pear", "orange"];
+let shoppingCart = favfruits;
+console.log(shoppingCart); // apples , pear , orange 
+shoppingCart.push("Banana");
+console.log(favfruits.length);   //4
+
+// This is because arrays are objects so both shopping cart and favfruits are the reference to same array
+
+
